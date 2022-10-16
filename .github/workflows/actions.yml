@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: '3.10' 
 
-      - name:
-        env:
-          statement: ${{secrets.STATEMENT}}
+      - name: run code
+        # env:
+        #   statement: ${{secrets.STATEMENT}}
         run: python first.py  
