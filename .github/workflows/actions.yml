@@ -17,5 +17,5 @@ jobs:
 
       - name:
         env:
-          statement: ${{secrets.statemenet}}
+          statement: ${{secrets.STATEMENT}}
         run: python first.py  
