@@ -1,4 +1,4 @@
 # from variables import statement 
 import os
 
-print('YES')
+print(os.environ['statement'])

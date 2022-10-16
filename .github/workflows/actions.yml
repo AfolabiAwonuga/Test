@@ -18,4 +18,4 @@ jobs:
       - name: run code
         env:
           statement: ${{secrets.statement}}
-        run: echo $statement
+        run: python first.py
